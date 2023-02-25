@@ -1,0 +1,29 @@
+.container{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background:#443C68 ;
+    box-shadow: -3px -3px 5px #635985, 3px 3px 15px black;
+    border-radius: 30px;
+    border: none;
+    /* color: white; */
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: -1px -1px 2px #635985,  1px 1px 4px black;
+            
+    letter-spacing: 10px;
+}
+
+
+.active{
+box-shadow: inset -3px -3px 5px #635985,inset 3px 3px 15px black;
+    border-radius: 30px;
+    text-shadow: 1px 1px 5px #635985, 
+               
+}
